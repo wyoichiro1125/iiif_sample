@@ -1,0 +1,33 @@
+ {
+   "@context": "http://iiif.io/api/presentation/2/context.json", 
+   "@id": "https://wyoichiro1125.github.io/iiif_sample/1/test_manifest.json",
+   "@type": "sc:Manifest", 
+   "label": "test",
+   "sequences": [
+     {
+       "@type": "sc:Sequence", 
+       "canvases": [
+         {
+           "@id": "1",
+           "@type": "sc:Canvas", 
+           "label": "test",
+                    "width": 2996,
+                    "height": 1848,
+           "images": [
+             {
+               "@type": "oa:Annotation", 
+               "motivation": "sc:painting", 
+               "resource": {
+                 "@id": "https://wyoichiro1125.github.io/iiif_sample/1/001.tft",
+                 "@type": "dctypes:Image", 
+                    "width": 2996,
+                    "height": 1848
+               }, 
+               "on": "1"
+             }
+           ]
+         }
+       ]
+     }
+   ]
+ }
