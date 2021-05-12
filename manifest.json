@@ -1,0 +1,100 @@
+{
+    "label": "サンプルタイトル１",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "attribution": "配布者ここ",
+    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/manifest.json",
+    "@type": "sc:Manifest",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "metadata": [],
+    "within": "",
+    "logo": "",
+    "description": "",
+    "viewingHint": "",
+    "viewingDirection": "",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "label": "Current Page Order",
+            "canvases": [
+                {
+                    "label": "p. 1",
+                    "width": 2996,
+                    "height": 1848,
+                    "@type": "sc:Canvas",
+                    "@id": "page1",
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "on": "page1",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 2996,
+                                "height": 1848,
+                                "@id": "https://wyoichiro1125.github.io/iiif_sample/1/001.tif/full/full/0/default.jpg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/001.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "p. 2",
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 2996,
+                                "height": 1848,
+                                "@id": "https://wyoichiro1125.github.io/iiif_sample/1/002.tif/full/full/0/default.jpg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/002.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            },
+                            "@id": "page2"
+                        }
+                    ],
+                    "width": 2996,
+                    "height": 1848,
+                    "@type": "sc:Canvas",
+                    "@id": "page2"
+                },
+                {
+                    "label": "p. 3",
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 1204,
+                                "height": 1023,
+                                "@id": "https://wyoichiro1125.github.io/iiif_sample/1/003.tif/full/full/0/default.jpg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/003.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            },
+                            "on": "page3"
+                        }
+                    ],
+                    "width": 1204,
+                    "height": 1023,
+                    "@type": "sc:Canvas",
+                    "@id": "page3"
+                }
+            ]
+        }
+    ]
+}
