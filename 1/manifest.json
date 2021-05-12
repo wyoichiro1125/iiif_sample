@@ -35,8 +35,7 @@
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 }
                             },
-                            "@id": "https://wyoichiro1125.github.io/iiif_sample/1/annotation/p1",
-                            "on": "https://wyoichiro1125.github.io/iiif_sample/1/canvas/p1"
+                            "on": "p1"
                         }
                     ],
                     "width": 2996,
@@ -62,8 +61,7 @@
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 }
                             },
-                            "@id": "https://wyoichiro1125.github.io/iiif_sample/1/annotation/p2",
-                            "on": "https://wyoichiro1125.github.io/iiif_sample/1/canvas/p2"
+                            "on": "p2"
                         }
                     ],
                     "width": 2996,
@@ -89,8 +87,7 @@
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 }
                             },
-                            "@id": "https://wyoichiro1125.github.io/iiif_sample/1/annotation/p3",
-                            "on": "https://wyoichiro1125.github.io/iiif_sample/1/canvas/p3"
+                            "on": "p3"
                         }
                     ],
                     "width": 1204,
