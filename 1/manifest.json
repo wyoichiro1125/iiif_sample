@@ -13,15 +13,19 @@
     "viewingDirection": "",
     "sequences": [
         {
-            "@id": "https://wyoichiro1125.github.io/iiif_sample/1/sequence/normal",
             "@type": "sc:Sequence",
             "label": "Current Page Order",
             "canvases": [
                 {
                     "label": "p. 1",
+                    "width": 2996,
+                    "height": 1848,
+                    "@type": "sc:Canvas",
+                    "@id": "page1",
                     "images": [
                         {
                             "@type": "oa:Annotation",
+                            "on": "page1",
                             "motivation": "sc:painting",
                             "resource": {
                                 "@type": "dctypes:Image",
@@ -34,14 +38,9 @@
                                     "@id": "https://wyoichiro1125.github.io/iiif_sample/1/001.tif",
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 }
-                            },
-                            "on": "p1"
+                            }
                         }
-                    ],
-                    "width": 2996,
-                    "height": 1848,
-                    "@type": "sc:Canvas",
-                    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/canvas/p1.json"
+                    ]
                 },
                 {
                     "label": "p. 2",
@@ -61,13 +60,13 @@
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 }
                             },
-                            "on": "p2"
+                            "@id": "page2"
                         }
                     ],
                     "width": 2996,
                     "height": 1848,
                     "@type": "sc:Canvas",
-                    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/canvas/p2"
+                    "@id": "page2"
                 },
                 {
                     "label": "p. 3",
@@ -87,13 +86,13 @@
                                     "profile": "http://iiif.io/api/image/2/level1.json"
                                 }
                             },
-                            "on": "p3"
+                            "on": "page3"
                         }
                     ],
                     "width": 1204,
                     "height": 1023,
                     "@type": "sc:Canvas",
-                    "@id": "https://wyoichiro1125.github.io/iiif_sample/1/canvas/p3"
+                    "@id": "page3"
                 }
             ]
         }
