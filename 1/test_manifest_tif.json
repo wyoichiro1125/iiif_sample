@@ -46,7 +46,7 @@
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
                             "resource": {
-                                "@id": "https://wyoichiro1125.github.io/iiif_sample/1/002.tif//full/full/0/default.jpg",
+                                "@id": "https://wyoichiro1125.github.io/iiif_sample/1/002.tif/full/full/0/default.jpg",
                                 "@type": "dctypes:Image",
                                 "width": 2996,
                                 "height": 1848
