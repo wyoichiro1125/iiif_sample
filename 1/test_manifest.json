@@ -18,7 +18,7 @@
                 {
                     "@id": "1",
                     "@type": "sc:Canvas",
-                    "label": "test",
+                    "label": "test_page1",
                     "width": 2996,
                     "height": 1848,
                     "images": [
@@ -38,7 +38,7 @@
                 {
                     "@id": "2",
                     "@type": "sc:Canvas",
-                    "label": "test",
+                    "label": "test_page2",
                     "width": 2996,
                     "height": 1848,
                     "images": [
@@ -58,7 +58,7 @@
                 {
                     "@id": "3",
                     "@type": "sc:Canvas",
-                    "label": "test",
+                    "label": "test_page3",
                     "width": 2996,
                     "height": 1848,
                     "images": [
