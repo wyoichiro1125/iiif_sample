@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:rs="http://www.openarchives.org/rs/terms/">
+<rs:md at="2021-05-19T17:03:03Z" capability="resourcelist" completed="2021-05-19T17:03:03Z " />
+    <url>
+	    <loc>https://wyoichiro1125.github.io/iiif_sample/metadata/1.xml</loc>
+	    <lastmod>2021-05-19T17:03:03Z</lastmod>
+	    <rs:md hash="md5:41d5df375ea2c361d1022f46a9abf702" length="1610" type="application/xml" />
+    </url>
+    <url>
+	    <loc>https://wyoichiro1125.github.io/iiif_sample/metadata/2.xml</loc>
+	    <lastmod>2021-05-19T17:03:03Z</lastmod>
+	    <rs:md hash="md5:80efb5f2c07b54911356b74290127071" length="1610" type="application/xml" />
+    </url>
+    <url>
+	    <loc>https://wyoichiro1125.github.io/iiif_sample/metadata/3.xml</loc>
+	    <lastmod>2021-05-19T17:03:03Z</lastmod>
+	    <rs:md hash="md5:303bea83f6438b3d6b1398148b2725e5" length="1610" type="application/xml" />
+    </url>
+    <url>
+	    <loc>https://wyoichiro1125.github.io/iiif_sample/metadata/Resourcelist.xml</loc>
+	    <lastmod>2021-05-19T16:55:18Z</lastmod>
+	    <rs:md hash="md5:1e706da73370042ca2fa345d24a2cd89" length="1213" type="application/xml" />
+    </url>
+</urlset>
